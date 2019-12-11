@@ -13,6 +13,7 @@ import {EmailAuthNavigator} from '../features/EmailAuth/navigator';
 import { CameraNavigator } from "../features/UserCamera/navigator";
 
 //@BlueprintImportInsertion
+import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
 import { TutorialBlueprintNavigator } from '../features/TutorialBlueprint/navigator';
 import { TimeTrackerBlueprintNavigator } from '../features/TimeTrackerBlueprint/navigator';
 import { SettingsBlueprintNavigator } from '../features/SettingsBlueprint/navigator';
@@ -66,6 +67,7 @@ const AppNavigator = {
     
 
     //@BlueprintNavigationInsertion
+ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
 TutorialBlueprint: { screen: TutorialBlueprintNavigator },
 TimeTrackerBlueprint: { screen: TimeTrackerBlueprintNavigator },
 SettingsBlueprint: { screen: SettingsBlueprintNavigator },

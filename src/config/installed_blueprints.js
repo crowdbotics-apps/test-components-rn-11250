@@ -49,6 +49,7 @@ export const installed_blueprints = [
   
 
   //@BlueprintInsertion
+{ name: 'ProfilesBlueprint', human_name: 'Profiles', access_route: 'ProfilesBlueprint'},
 { name: 'TutorialBlueprint', human_name: 'Tutorial', access_route: 'TutorialBlueprint'},
 { name: 'TimeTrackerBlueprint', human_name: 'Time Tracker', access_route: 'TimeTrackerBlueprint'},
 { name: 'SettingsBlueprint', human_name: 'Settings', access_route: 'SettingsBlueprint'},
