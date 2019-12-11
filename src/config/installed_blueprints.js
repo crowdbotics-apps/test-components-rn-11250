@@ -49,6 +49,7 @@ export const installed_blueprints = [
   
 
   //@BlueprintInsertion
+{ name: 'SignIn01Blueprint', human_name: 'SignIn 1', access_route: 'SignIn01Blueprint'},
 
   // you can add more installed blueprints here
   // access route is the route nate given to navigator
